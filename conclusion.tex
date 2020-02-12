@@ -1,4 +1,44 @@
-\chapter{Conclusion}
-\label{chapter:conclusion}
+\chapter{Design fase}
+\label{chapter:design}
 
-A conclusion.
+%\chapter{<>}
+    Planetary Rover Vehicle Rocker Bogie - Design
+%\label{chapter:title}
+
+\section{Question 2.1.3.1}
+\\
+     Static Design
+     \\
+     \\
+     Through a simple FBD, it becomes evident that the rear wheels carry half of the weight of the boogie. Or a quarter of the weight for each rear wheel. The front wheels carry the other half of the weight. And since the front wheels are made up of four wheels, each front wheel carries one-eighth of the weight.
+     \\
+     Picture will follow
+     \\
+\section{Question 2.1.3.2}
+\\
+     Wheel Design
+     \\
+     \\
+     In order to overcome the step of the given size of 0.70 [m] the wheel needs to have a diameter of at least double the size of the step in order to create the moments needed for it to overcome the obstacle. Which yields that the minimum required diameter is 1.40 [m] and the corresponding radius is 0.70 [m].
+     \\
+\section{Question 2.1.3.3}
+\section{Question 2.1.3.4}
+For calculating the required Eigenfrequency the following formula was given;
+
+\begin{equation} \label{naturalfreq}
+    f_n= \frac{1}{2\pi} \cdot \sqrt{\frac{48*E*I}{m*L^3}}
+\end{equation}
+\\
+It is required that the minimum Eigenfrequency of the crossbeam is higher than 25 [Hz]
+\\
+The crossbeam has the geometry of a thin-walled ring and hence the area moment of inertia equals;
+\begin{equation} 
+    I = \pi * R^3 * t 
+\end{equation}
+Filling that into equation (2.12) yields 
+\begin{equation} \label{naturalfreq}
+    f_n= \frac{1}{2\pi} \cdot \sqrt{\frac{48*E*\pi * R^3 * t }{m*L^3}}
+\end{equation}
+
+As discussed in the previous exercise, aluminum was chosen as the material for the crossbeam. The E-Modulus of aluminum is E = 68 [GPa]
+The length of the crossbeam is 2.50 [m]
